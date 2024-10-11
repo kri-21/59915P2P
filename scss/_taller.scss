@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    padding: 20px;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 75%;
+    height: auto;
+}
+
+.text {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+main {
+    height: auto;
+}
+
+.container {
+    flex-direction: row;
+}
