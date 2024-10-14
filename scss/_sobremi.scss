@@ -3,8 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 500px;
-    padding: 20px;
+    max-width: 900px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .box {
@@ -12,76 +13,54 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    text-align: left;
 }
 
 img {
-    max-width: 75%;
+    max-width: 95%;
     height: auto;
+    max-height: 500px ;
 }
 
 .text {
-    font-size: 1.2rem;
-    text-align: center;
+    font-size: medium;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 800px;
 }
 
-main {
-    height: auto;
-}
-
-.container {
-    flex-direction: row;
-}
-
-@media only screen and (min-width:900px) {
+@media only screen and (max-width:1023px) {
     main {
         height: auto;
-        display: grid;
-        max-width: auto;
-        justify-content: space-around;
+        max-height: 3000px;
     }
 
-    #sms {
-        display: none;
+    .container {
+        max-width: 700px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container-rows {
+        max-width: 700px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
-    #lsm {
-        max-width: 1200px;
-        grid-column: 100% 100%;
-        text-align: justify;
-        padding-bottom: 26px;
-    }
 
-    #kp2 {
-        max-width: 75%;
-    }
-
-    .text-center {
-        flex: 75%;
-        justify-content: space-evenly;
-        padding-top: 20px;
-    }
-
-    #footer {
-        height: 120px;
-        padding-bottom: 5px;
-        padding-top: 5px;
+    p{
+        justify-content: center;
+        text-align: center;
     }
 }
 
-@media only screen and (max-width:900px) {
-    main {
-        height: auto;
-        grid-template-columns: 100%;
-        justify-content: space-around;
-        padding-bottom: 16px;
+@media only screen and (min-width:1024px) {
+    .container {
+        flex-direction: row;
+        padding-left: 20px;
+        padding-right: 20px;
     }
-
-    #lsm {
-        display: none;
-
-        #mfooter {
-            display: none;
-        }
+    p{
+        justify-content: center;
+        text-align: center;
     }
 }

@@ -1,11 +1,19 @@
 {
-  "name": "preentrega2portugal",
+  "name": "3erpreentregaportugal",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kri-21/3erPreentrega.git"
+  },
+  "author": "kri-21",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kri-21/3erPreentrega/issues"
+  },
+  "homepage": "https://github.com/kri-21/3erPreentrega#readme",
   "description": ""
 }

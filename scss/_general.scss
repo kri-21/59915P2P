@@ -1,18 +1,25 @@
+.btn {
+    border-color: #e97aaa;
+    background-color: rgba(245, 245, 220, 0.952);
+    border-width: 3px;
+    color: rgb(93, 93, 92);
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    height: 45px;
+    width: 175px;
+    justify-content: space-evenly;
+}
+
 title {
     font-size: 21px;
     height: 30px;
     text-align: center;
 }
 
-#logo {
-    width: auto;
-    display: block;
-    align-items: center;
-}
-
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 21px;
+    font-size: 16px;
     color: rgb(93, 93, 92);
     text-align: center;
 }
@@ -26,7 +33,7 @@ a {
 
 h1 {
     font-size: 38px;
-    text-align: left;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(236, 176, 24);
 }
@@ -39,8 +46,18 @@ h2 {
     color: #e97aaa;
 }
 
+h3 {
+    font-family: serif;
+    font-style: italic;
+    color: darkgrey;
+    text-align: center;
+}
+
 h4 {
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(93, 93, 92);
 }
+#isologo {max-height: 50px;
+    padding-left: 45%;}      
+    
